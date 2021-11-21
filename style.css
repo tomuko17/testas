@@ -1,0 +1,146 @@
+/*mobile*/
+header{
+    background-color: rgb(72, 72, 165);
+    height: 100px;
+    font-size: 1em;
+    display: grid;
+    grid-template-columns: repeat(1 ,1fr);
+    justify-items: center;
+    align-items: center;  
+}
+
+header >img {
+    height: 30px;
+}
+
+#icon{
+    background-image: url(http://thumbs.dreamstime.com/z/black-magnifying-glass-vector-icon-transparent-background-web-124672678.jpg); 
+    background-repeat: no-repeat; 
+    background-position: 0px 0px;
+    background-size: 11%;
+}
+
+header > div{
+    padding: 20px;
+}
+
+.hero{
+    display: flex;
+    background-color: rgb(188, 231, 29);    
+    color:rgb(133, 7, 17);    
+    font-size: 2.5em;
+    justify-content: center;
+    padding: 5em;
+}
+
+.nested{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  
+}
+
+img {
+    border-radius: 50%;
+    padding: 11px;
+    justify-content: space-around;
+
+}
+
+h2{
+    text-align: center;
+    color: rgb(173, 96, 2);
+}
+
+h3{
+    text-align: center;
+    color: rgb(173, 96, 2);
+    font-size: 20px;
+}
+
+.tekstas{
+    text-align:center;
+    color:blue;
+}
+
+.nested{
+    display: flex;    
+    justify-content: space-around;     
+}
+
+.nested1{
+    display: block;
+    text-align: center;   
+} 
+
+p{
+    text-align: center; 
+    margin: 0;
+}
+
+.geltona{
+      height: 15px;
+      background-color: yellow;
+}
+
+.fonas{
+      background-color: gray;
+      color: honeydew;
+      padding: 15px;
+}
+@media only screen and (min-width:769px){
+    header{
+       height: 50px;
+       display: grid;
+       grid-template-columns: repeat(2 ,1fr);
+       justify-items: center;
+       align-items: center; 
+        
+    }
+
+    .hero{
+        display: flex;
+        background-color: rgb(188, 231, 29);
+        color:rgb(133, 7, 17);
+        font-size: 2.5em;
+        justify-content: center;
+        padding-top: 15em;
+        height: 20rem;
+    }
+
+    .nested{
+        margin-top: -5rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+   
+    .nested1{
+        display: flex;
+        justify-content:space-around;       
+    }
+
+    .pic1{
+        height: 50%;
+        margin-top: 5em;  
+    }
+
+    .kontaktai{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+    }
+    
+    .fonas{
+        display: flex; 
+        justify-content: space-around;         
+    }
+
+    h3{
+        margin:5px;
+    }
+}
