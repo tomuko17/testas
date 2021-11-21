@@ -36,15 +36,13 @@ header > div{
 .nested{
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
-  
+  justify-content: center;  
 }
 
 img {
     border-radius: 50%;
     padding: 11px;
     justify-content: space-around;
-
 }
 
 h2{
@@ -81,6 +79,7 @@ p{
 .geltona{
       height: 15px;
       background-color: yellow;
+      margin-top: 20px;
 }
 
 .fonas{
@@ -88,14 +87,14 @@ p{
       color: honeydew;
       padding: 15px;
 }
+
 @media only screen and (min-width:769px){
     header{
        height: 50px;
        display: grid;
        grid-template-columns: repeat(2 ,1fr);
        justify-items: center;
-       align-items: center; 
-        
+       align-items: center;     
     }
 
     .hero{
